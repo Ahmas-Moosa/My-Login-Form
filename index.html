@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monday Login Form</title>
+    <style>
+        body{
+            background-color: lavenderblush;
+        }
+
+        .zero{
+            display: block;
+            margin: auto;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+            background-color: white;
+            margin-top: 30px;
+            padding-top: 20px;
+            padding-left: 20px;
+            width: 500px;
+            height: 500px;
+
+        }
+
+        .a1{
+            text-decoration: none;
+            display: block;
+            margin: auto;
+            margin-top: 15px;
+            width: 200px;
+            height: 25px;
+            border-radius: 9px;
+            background-color: green;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div  class="zero">
+        <h1 style="color: blue;">Facebook Login</h1>
+        
+        <hr>
+        
+        <form action="submit.html">
+            <label for="Username">Username</label>
+            <input style="margin-top: 7px; width: 216px;" required type="text" placeholder="Enter Name">
+
+            <br>
+
+            <label for="E-Mail">E-Mail</label>
+            <input style="margin-top: 7px; margin-left: 17px; width: 220px;" required type="email" placeholder="Enter E-Mail">
+            
+            <br>
+
+            <label style="margin-left: 21px;" for="text">Age</label>
+            <input style="margin-top: 7px; margin-left: 15px; width: 218px;" required type="number" placeholder="Age">
+
+            <br>
+
+            <label for="password">Password</label>
+            <input style="margin-bottom: 7px; margin-top: 7px; width: 218px;" required type="password" placeholder="Choose Password">
+       
+            <p>Which Content will you Prefer</p>
+            <select required>
+                <optgroup label="Business">
+                    <option>Promotion</option>
+                    <option>Make Up</option>
+                    <option>Electtronics</option>
+                </optgroup>
+
+                <optgroup label="Entertainment">
+                    <option>Films</option>
+                    <option>Funny</option>
+                </optgroup>
+
+                <optgroup label="Public Figure">
+                    <option>Poetry</option>
+                    <option>Blog</option>
+                </optgroup>
+            </select>
+
+            <hr>
+
+            <h2>What is Your Gender?</h2>
+            <input required type="radio" name="1">Male
+            <input required type="radio" name="1">Female
+            
+            <br>
+            
+            <input style="margin-top: 20px;" type="file">
+            
+            <br>
+
+            <input class="a1" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
